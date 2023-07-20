@@ -2,7 +2,7 @@
 simple snake game with pygame realised in less than 4 hours
 
 the snake head is a circle with 2 little circles (eyes), its body is a list of circles.
-the board is a 50 * 30 matrix of tiles of 25*25 pixel*pixel.
+the board is a 50 * 30 matrix of tiles of 25 * 25 pixel * pixel.
 the game keeps track of the head position on the board.
 the body parts positions are appended when the snake head eats a point, pushing its actual position onto the stack, the body parts position updates each turn, it removes the last inserted (the tail) and appends the head position.
 the game runs in 60 fps, the snake moves twice per second.
